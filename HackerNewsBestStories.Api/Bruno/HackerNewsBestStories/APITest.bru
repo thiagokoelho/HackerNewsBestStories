@@ -1,0 +1,15 @@
+meta {
+  name: APITest
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:8080/stories/best?count=5
+  body: none
+  auth: none
+}
+
+params:query {
+  count: 5
+}
