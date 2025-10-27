@@ -1,0 +1,25 @@
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Build
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# VS user files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Copilot / caches
+.vs/**/CopilotIndices/
+
+# Logs
+*.log
