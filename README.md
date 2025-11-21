@@ -1,5 +1,3 @@
-# HackerNewsBestStories
-
 # 📰 Hacker News Best Stories API
 
 A  **.NET 8 Minimal API**  that returns the  **best N**  Hacker News stories ordered by score.  
