@@ -1,0 +1,15 @@
+meta {
+  name: StoryByID
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://hacker-news.firebaseio.com/v0/item/{{id}}.json
+  body: none
+  auth: none
+}
+
+vars:pre-request {
+  id: 45710006
+}
